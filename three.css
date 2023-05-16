@@ -27,7 +27,12 @@ input{
     border: none;
     padding-left: 10px;
     font-family: 'Poppins', sans-serif;
+    outline:none;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
 }
+
 hr{
     margin: 10px 0px;
     width:300px;
@@ -48,8 +53,10 @@ h2{
 h5{
     margin-left: 185px;
     color: rgb(117, 115, 115);
+    cursor: pointer;
 }
 button{
+    cursor: pointer;
     margin-top: 10px;
     border: none;
     background:linear-gradient(to right,#8d68c5,#e34494);
@@ -69,6 +76,7 @@ h3{
     
 }
 .img{
+    cursor: pointer;
     margin-top:20px;
     display: flex;
     justify-content: center;
